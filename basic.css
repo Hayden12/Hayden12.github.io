@@ -1,12 +1,12 @@
 .container>div {
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   font-size: 2em;
   color: #ffeead;
 }
 
 html, body {
-  margin: 10px;
+  margin: 50px;
 }
 
 .container>div:nth-child(1) {
@@ -22,4 +22,4 @@ html, body {
 }
 
 .container>div:nth-child(4) {
-  Background-color: #fffff;
+  Background-color: Red;
