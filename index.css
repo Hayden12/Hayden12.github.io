@@ -2,17 +2,3 @@
   border: 5px solid #ffcc5c;
   display: flex;
 }
-
-.container>div {
-  flex: 1;
-  /*flex-grow, flex-shrink, flex-basis */
-}
-
-.container>.search {
-  flex: 2;
-}
-
-.PAPO {
-  align-self: flex-start;
-  flex: 3;
-}
