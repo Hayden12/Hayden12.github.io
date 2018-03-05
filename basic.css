@@ -3,11 +3,13 @@
   text-align: center;
   font-size: 2em;
   color: #ffeead;
+  background-image: url(https://www.theatlantic.com/politics/archive/2016/09/its-not-easy-being-green/499892/);
 }
 
 html, body {
   background-color: #ffeead;
   margin: 10px;
+  background-image: url(https://www.theatlantic.com/politics/archive/2016/09/its-not-easy-being-green/499892/);
 }
 
 .container>div:nth-child(1) {
@@ -15,9 +17,17 @@ html, body {
 }
 
 .container>div:nth-child(2) {
-  background-color: #ff6f69;
+  background-color: Red;
 }
 
 .container>div:nth-child(3) {
-  background-color: #88d8b0;
+  background-color: Green;
+}
+
+.container>div:nth-child(4) {
+  background-color: blue;
+}
+
+.container>div:nth-child(5) {
+  background-color: Orange;
 }
