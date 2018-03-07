@@ -1,6 +1,6 @@
 .container>div {
-  padding: 10px;
-  text-align: right;
+  padding: 100px;
+  text-align: top;
   font-size: 2em;
   color: #ffeead;
 }
@@ -9,7 +9,7 @@ html, body {
   width: 100vw;
   min-height: 100vh;
   margin: 0;
-  padding: 10;
+  padding: 0;
 }
 body {
   display: grid;
