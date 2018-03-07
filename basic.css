@@ -6,13 +6,11 @@
 }
 
 html, body {
+  display: grid;
   width: 100vw;
   min-height: 10vh;
   margin: 2;
   padding: 0;
-}
-body {
-  display: grid;
 }
 
 .container>div:nth-child(1) {
