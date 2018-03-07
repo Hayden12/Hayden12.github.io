@@ -1,12 +1,12 @@
 .container>div {
-  padding: 100px;
+  padding: 10px;
   text-align: top;
   font-size: 2em;
   color: #ffeead;
 }
 
 html, body {
-  width: 100vw;
+  width: 10vw;
   min-height: 100vh;
   margin: 0;
   padding: 0;
