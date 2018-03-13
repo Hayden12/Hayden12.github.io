@@ -2,8 +2,8 @@
 <html>
 <head>
 <style>
-.item1 { grid-area: header; }
-.item2 { grid-area: nav; }
+.item1 { grid-area: BANNER; }
+.item2 { grid-area: HORIZONTAL NAVIGATION BAR; }
 .item3 { grid-area: menu; }
 .item4 { grid-area: content; }
 .item5 { grid-area: footer; }
@@ -11,10 +11,10 @@
 .grid-container {
   display: grid;
   grid:
-    'header header header header header header'
-    'nav nav nav nav nav nav'
-    'menu content content content content content'
-    'menu footer footer footer footer footer';
+    'BANNER BANNER BANNER BANNER BANNER BANNER'
+    'HORIZONTAL NAVIGATION BAR HORIZONTAL NAVIGATION BAR HORIZONTAL NAVIGATION BAR HORIZONTAL NAVIGATION BAR HORIZONTAL NAVIGATION BAR HORIZONTAL NAVIGATION BAR'
+    'menu CONTENT CONTENT CONTENT CONTENT CONTENT'
+    'menu FOOTER FOOTER FOOTER FOOTER FOOTER';
   grid-gap: 10px;
   background-color: #FF0000;
   padding: 10px;
@@ -32,7 +32,7 @@
 <div class="grid-container">
   <div class="item1">BANNER</div>
   <div class="item2">HORIZONTAL NAVIGATION BAR</div>
-  <div class="item3"> </div>
+  <div class="item3">Menu</div>
   <div class="item4">CONTENT</div>
   <div class="item5">FOOTER</div>
 </div>
