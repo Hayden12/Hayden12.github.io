@@ -3,7 +3,7 @@
 <head>
 <style>
 .item1 { grid-area: header; }
-.item2  { grid-area: nav; }
+.item2 { grid-area: nav; }
 .item3 { grid-area: menu; }
 .item4 { grid-area: main; }
 .item5 { grid-area: footer; }
@@ -13,11 +13,11 @@
   grid-template-areas:
     'header header header header header header'
     'nav nav nav nav nav nav'
-    'menu main main main main main'
-    'menu footer footer footer footer footer';
-  grid-gap: 4px;
+    'menu menu main main main main'
+    'menu menu footer footer footer footer';
+  grid-gap: 3px;
   background-color: #000000;
-  padding: 10px;
+  padding: 3px;
 }
 .grid-container>div {
   background-color: rgb(0, 255, 233);
@@ -32,10 +32,11 @@
 <div class="grid-container">
   <div class="item1">BANNER</div>
   <div class="item2">HORIZONTAL NAVIGATION BAR</div>
-  <div class="item3">Menu</div>
-  <div class="item4">Main</div>  
-  <div class="item5">Footer</div>
+  <div class="item3"> </div>
+  <div class="item4">CONTENT</div>  
+  <div class="item5">FOOTER</div>
 </div>
 
 </body>
 </html>
+
