@@ -5,7 +5,7 @@
 .item1 { grid-area: header; }
 .item2 { grid-area: nav; }
 .item3 { grid-area: menu; }
-.item4 { grid-area: main; }
+.item4 { grid-area: content; }
 .item5 { grid-area: footer; }
     
 .grid-container {
@@ -13,9 +13,9 @@
   grid:
     'header header header header header header'
     'nav nav nav nav nav nav'
-    'menu main main main main main'
-    'menu footer footer footer footer footer'
-    'menu menu menu menu menu menu';
+    'menu content content content content content'
+    'menu content content content content content'
+    'menu footer footer footer footer footer';
   grid-gap: 10px;
   background-color: #FF0000;
   padding: 10px;
@@ -34,7 +34,7 @@
   <div class="item1">Header</div>
   <div class="item2">Nav</div>
   <div class="item3">Menu</div>
-  <div class="item4">Main</div>
+  <div class="item4">content</div>
   <div class="item5">Footer</div>
 </div>
 
